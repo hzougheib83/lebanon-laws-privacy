@@ -141,6 +141,13 @@
       left: 4px;
     }
 
+    .contact-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
     .contact-btn {
       display: inline-flex;
       align-items: center;
@@ -148,10 +155,10 @@
       background-color: var(--primary-light);
       color: var(--primary);
       text-decoration: none;
-      padding: 8px 18px;
+      padding: 8px 16px;
       border-radius: 8px;
       font-weight: 700;
-      margin-top: 6px;
+      font-size: 0.92rem;
       transition: background 0.2s;
     }
 
@@ -204,7 +211,10 @@
 
         <h2 class="section-title">6. اتصل بنا</h2>
         <p>إذا كانت لديك أي استفسارات أو ملاحظات، يسعدنا تواصلك معنا:</p>
-        <a href="tel:+96171017897" class="contact-btn">897 017 71 961+📞</a>
+        <div class="contact-group">
+          <a href="tel:+96171017897" class="contact-btn">📞 +961 71 017 897</a>
+          <a href="mailto:zoughaib.co.lb@gmail.com" class="contact-btn">✉️ zoughaib.co.lb@gmail.com</a>
+        </div>
       </section>
 
       <!-- English Section -->
@@ -229,7 +239,10 @@
 
         <h2 class="section-title">4. Contact Us</h2>
         <p>If you have any questions, feel free to reach out:</p>
-        <a href="tel:+96171017897" class="contact-btn">📞 +961 71 017 897</a>
+        <div class="contact-group">
+          <a href="tel:+96171017897" class="contact-btn">📞 +961 71 017 897</a>
+          <a href="mailto:zoughaib.co.lb@gmail.com" class="contact-btn">✉️ zoughaib.co.lb@gmail.com</a>
+        </div>
       </section>
     </main>
 
