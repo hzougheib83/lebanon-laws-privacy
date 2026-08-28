@@ -1,50 +1,243 @@
-سياسة الخصوصية
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية | Lebanese Laws Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #eff6ff;
+      --text-main: #1f2937;
+      --text-muted: #6b7280;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --radius: 14px;
+    }
 
-آخر تحديث: 28 أغسطس 2026
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-يلتزم تطبيق "القوانين اللبنانية" بحماية خصوصيتك. توضح هذه الصفحة كيف نتعامل مع المعلومات عند استخدامك للتطبيق.
-1. جمع المعلومات واستخدامها
+    body {
+      font-family: 'Cairo', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 24px 16px;
+    }
 
-لا يقوم التطبيق بجمع أي بيانات هوية شخصية (مثل الاسم أو البريد الإلكتروني أو رقم الهاتف) بشكل تلقائي. يتم تخزين "المحفوظات" و"سجل البحث" محلياً فقط على جهازك ولا يتم رفعها إلى خوادمنا.
-2. خدمات الطرف الثالث
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
 
-يستخدم التطبيق خدمات من جهات خارجية قد تجمع معلومات تستخدم للتعريف بك:
+    .header-card {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: #fff;
+      padding: 32px 24px;
+      border-radius: var(--radius);
+      box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.25);
+      margin-bottom: 24px;
+      text-align: center;
+    }
 
-    Google AdMob: لعرض الإعلانات.
-    Google Gemini (AI): لمعالجة استفسارات المساعد الذكي. لا يتم إرسال بيانات شخصية، بل فقط نص السؤال القانوني.
-    User Messaging Platform (UMP): لإدارة موافقة المستخدمين على الإعلانات وفق قوانين الخصوصية العالمية.
+    .header-card h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
 
-3. ملفات السجل (Log Data)
+    .header-card p {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
 
-في حال حدوث خطأ في التطبيق، قد نجمع بيانات (عبر خدمات خارجية) تسمى بيانات السجل للمساعدة في إصلاح المشكلة.
-4. أمن البيانات
+    .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.18);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-bottom: 12px;
+    }
 
-نحن نحرص على حماية بياناتك المخزنة محلياً، ولكن تذكر أنه لا توجد وسيلة نقل عبر الإنترنت أو تخزين إلكتروني آمنة بنسبة 100%.
-5. التغييرات على هذه السياسة
+    .content-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
 
-قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. ننصحك بمراجعة هذه الصفحة بشكل دوري.
-6. اتصل بنا
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin: 22px 0 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
 
-إذا كان لديك أي أسئلة، يمكنك التواصل معنا عبر رقم الهاتف: 71017897
-Privacy Policy
+    .section-title:first-of-type {
+      margin-top: 0;
+    }
 
-Last updated: August 28, 2026
+    p {
+      margin-bottom: 14px;
+      font-size: 0.98rem;
+    }
 
-The "Lebanese Laws" app is committed to protecting your privacy. This policy explains how we handle information.
-1. Information Collection and Use
+    ul {
+      list-style: none;
+      margin: 12px 0 16px 0;
+      padding: 0;
+    }
 
-We do not collect personally identifiable information. "Bookmarks" and "History" are stored locally on your device only.
-2. Third-Party Services
+    ul li {
+      position: relative;
+      padding: 8px 24px 8px 0;
+      font-size: 0.95rem;
+      border-bottom: 1px dashed var(--border);
+    }
 
-The app uses third-party services that may collect information used to identify you:
+    ul li:last-child {
+      border-bottom: none;
+    }
 
-    Google AdMob (Ads)
-    Google Gemini (AI processing)
-    Google UMP (Consent management)
+    ul li::before {
+      content: "•";
+      position: absolute;
+      right: 4px;
+      color: var(--primary);
+      font-size: 1.4rem;
+      line-height: 1;
+    }
 
-3. Security
+    .en-section {
+      direction: ltr;
+      text-align: left;
+      font-family: 'Inter', sans-serif;
+      margin-top: 36px;
+      border-top: 2px dashed var(--border);
+      padding-top: 32px;
+    }
 
-We strive to use commercially acceptable means of protecting your information, but no method of electronic storage is 100% secure.
-4. Contact Us
+    .en-section ul li {
+      padding: 8px 0 8px 24px;
+    }
 
-If you have any questions, contact us at: +961 71 017 897
+    .en-section ul li::before {
+      right: auto;
+      left: 4px;
+    }
+
+    .contact-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: var(--primary-light);
+      color: var(--primary);
+      text-decoration: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      margin-top: 6px;
+      transition: background 0.2s;
+    }
+
+    .contact-btn:hover {
+      background-color: #dbeafe;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <header class="header-card">
+      <span class="badge">تطبيق القوانين اللبنانية | Lebanese Laws</span>
+      <h1>سياسة الخصوصية • Privacy Policy</h1>
+      <p>آخر تحديث: 28 أغسطس 2026</p>
+    </header>
+
+    <main class="content-box">
+      <!-- Arabic Section -->
+      <section>
+        <p>يلتزم تطبيق <strong>"القوانين اللبنانية"</strong> بحماية خصوصيتك. توضح هذه الصفحة كيف نتعامل مع المعلومات عند استخدامك للتطبيق.</p>
+
+        <h2 class="section-title">1. جمع المعلومات واستخدامها</h2>
+        <p>لا يقوم التطبيق بجمع أي بيانات هوية شخصية (مثل الاسم، البريد الإلكتروني، أو رقم الهاتف) بشكل تلقائي. يتم تخزين <strong>"المحفوظات"</strong> و<strong>"سجل البحث"</strong> محلياً فقط على جهازك ولا يتم رفعها إلى خوادمنا إطلاقاً.</p>
+
+        <h2 class="section-title">2. خدمات الطرف الثالث (Third-Party Services)</h2>
+        <p>يستخدم التطبيق خدمات موثوقة من جهات خارجية قد تجمع بعض المعرفات غير الشخصية لتحسين الخدمة:</p>
+        <ul>
+          <li><strong>Google AdMob:</strong> لعرض الإعلانات المخصصة وغير المخصصة.</li>
+          <li><strong>Google Gemini (AI):</strong> لمعالجة استفسارات المساعد الذكي القانوني (يتم إرسال نص السؤال فقط دون ربطه بأي بيانات شخصية).</li>
+          <li><strong>User Messaging Platform (UMP):</strong> لإدارة موافقة المستخدمين على الخصوصية والإعلانات وفق المعايير العالمية.</li>
+        </ul>
+
+        <h2 class="section-title">3. ملفات السجل (Log Data)</h2>
+        <p>في حال حدوث خطأ أو توقف مفاجئ للتطبيق، قد نجمع بيانات تشخيصية عبر خدمات سحابية خارجية للمساعدة في إصلاح المشكلة وتحديث الاستقرار.</p>
+
+        <h2 class="section-title">4. أمن البيانات</h2>
+        <p>نحن نحرص على حماية بياناتك المخزنة محلياً، ولكن نذكّر بأنه لا توجد وسيلة نقل عبر الإنترنت أو وسيلة تخزين إلكترونية آمنة بنسبة 100%.</p>
+
+        <h2 class="section-title">5. التغييرات على هذه السياسة</h2>
+        <p>قد نقوم بتحديث سياسة الخصوصية من وقت لآخر لمواكبة التحديثات التقنية والقانونية. ننصح بمراجعة هذه الصفحة بشكل دوري.</p>
+
+        <h2 class="section-title">6. اتصل بنا</h2>
+        <p>إذا كانت لديك أي استفسارات أو ملاحظات، يسعدنا تواصلك معنا:</p>
+        <a href="tel:+96171017897" class="contact-btn">📞 +961 71 017 897</a>
+      </section>
+
+      <!-- English Section -->
+      <section class="en-section">
+        <h2 class="section-title">Privacy Policy</h2>
+        <p><strong>Last updated:</strong> August 28, 2026</p>
+        <p>The <strong>"Lebanese Laws"</strong> app is committed to protecting your privacy. This policy explains how we handle your information.</p>
+
+        <h2 class="section-title">1. Information Collection and Use</h2>
+        <p>We do not collect personally identifiable information. <strong>"Bookmarks"</strong> and <strong>"Search History"</strong> are stored locally on your device only and are never uploaded to our servers.</p>
+
+        <h2 class="section-title">2. Third-Party Services</h2>
+        <p>The app uses third-party services that may collect information used to identify your device:</p>
+        <ul>
+          <li><strong>Google AdMob:</strong> For displaying advertisements.</li>
+          <li><strong>Google Gemini:</strong> For processing AI queries (only query text is sent, no personal info).</li>
+          <li><strong>Google UMP:</strong> For privacy and consent management.</li>
+        </ul>
+
+        <h2 class="section-title">3. Security</h2>
+        <p>We strive to use commercially acceptable means to protect your information, but remember that no method of electronic storage or transmission is 100% secure.</p>
+
+        <h2 class="section-title">4. Contact Us</h2>
+        <p>If you have any questions, feel free to reach out:</p>
+        <a href="tel:+96171017897" class="contact-btn">📞 +961 71 017 897</a>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 تطبيق القوانين اللبنانية • Lebanese Laws App. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
